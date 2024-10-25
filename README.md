@@ -102,10 +102,12 @@ docker-compose up -d
 
 5. 시스템 시작
 ```bash
-cd /
+cd ../data-collection-system
 npm start
 ```
 이후 localhost:3000으로 접속
+
+6. 
 
 
 
