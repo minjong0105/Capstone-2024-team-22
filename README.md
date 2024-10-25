@@ -117,6 +117,7 @@ npm start
 데이터를 제공하고자 하는 참여자는 Org1을 선택, 데이터를 수집하고자 하는 수집자는 Org2를 선택
 
 7. 
+![스크린샷 2024-10-25 220630](https://github.com/user-attachments/assets/f5b9c802-8f0f-48fe-b786-d2942d8b753e)
 
 
 https://github.com/pnucse-capstone-2024/Capstone-2024-team-22
