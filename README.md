@@ -110,7 +110,8 @@ npm start
 ```
 이후 localhost:3000으로 접속
 
-6. 
+6. 회원가입
+<img width="1077" alt="KakaoTalk_20241013_223555677" src="https://github.com/user-attachments/assets/f6e9c652-6306-4028-8ba8-5166b0e27f1f">
 
 
 
