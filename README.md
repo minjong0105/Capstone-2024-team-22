@@ -77,7 +77,7 @@ docker-compose -f docker-compose.yaml up -d
 docker exec -it cli peer channel create -o orderer.data-collector.com:7050 -c mychannel -f ./channel-artifacts/channel.tx --outputBlock ./channel-artifacts/channel.block --tls --cafile /etc/hyperledger/orderer/tls/ca.crt
 
 하이퍼레저 패브릭 네트워크 자동화 스크립트 실행
-sh ./start_network.sh
+sh ./start_network.sh    //이거 디렉토리 확인하고
 
 피어 조인
 docker exec -it cli.peer0.org1.data-collector.com peer channel join -b ./channel-artifacts/channel.block
@@ -93,12 +93,14 @@ docker exec -it cli.peer0.org2.data-collector.com peer channel update -o orderer
 docker exec -it cli.peer0.org3.data-collector.com peer channel update -o orderer.data-collector.com:7050 -c mychannel -f ./channel-artifacts/Org3MSPanchors.tx --tls --cafile /etc/hyperledger/orderer/tls/ca.crt
 ```
 
-n. ELK Stack 설치
+4. ELK Stack 설치
 ```bash
 cd ../docker-elk
 docker-compose up -d
 ```
-n. 시스템 시작
+만약 Elasticsearch Security 설정이 활성화되어 있어 대시보드  출력이 안되는 경우, localhost:9200 접속 후, id: elasticsearch, pw: changeme 입력 후 로그인하면 정상 실행 가능
+
+5. 시스템 시작
 ```bash
 cd /
 npm start
