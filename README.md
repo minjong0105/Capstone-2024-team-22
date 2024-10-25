@@ -50,12 +50,18 @@ cd your-repository
 cd data-collection-system
 npm install
 ```
-3. ELK Stack 설치
+3. 
+
+n. ELK Stack 설치
 ```bash
 cd ../docker-elk
 docker-compose up -d
 ```
-
+n. 시스템 시작
+```bash
+cd /
+npm start
+```
 
 
 
