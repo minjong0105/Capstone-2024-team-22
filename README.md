@@ -98,7 +98,7 @@ docker exec -it cli.peer0.org3.data-collector.com peer channel update -o orderer
 cd ../docker-elk
 docker-compose up -d
 ```
-만약 Elasticsearch Security 설정이 활성화되어 있어 대시보드  출력이 안되는 경우, localhost:9200 접속 후, id: elasticsearch, pw: changeme 입력 후 로그인하면 정상 실행 가능
+만약 Elasticsearch Security 설정이 활성화되어 있어 대시보드  출력이 안되는 경우에는 localhost:9200 접속 후 id: elasticsearch, pw: changeme 입력 후 로그인하면 정상 실행 가능
 
 5. 시스템 시작
 ```bash
