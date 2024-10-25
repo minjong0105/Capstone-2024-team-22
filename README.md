@@ -38,9 +38,12 @@
 
 [![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://youtu.be/zh_gQ_lmLqE)
 
-### 5. 설치 및 사용법
+### 설치 및 사용법
 
-
+1. 소스코드 복제
+   ```bash
+   git clone https://github.com/spotydol7/hyperledger-fabric-data-collector/tree/main
+   cd your-repository
 
 
 
