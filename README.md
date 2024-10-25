@@ -120,7 +120,7 @@ npm start
 
 ![스크린샷 2024-10-25 220630](https://github.com/user-attachments/assets/f5b9c802-8f0f-48fe-b786-d2942d8b753e)
 
-먼저 **데이터 수집하기**를 통해 자신이 수집하고자 하는 데이터의 주제 설정
+**데이터 수집하기**를 통해 자신이 수집하고자 하는 데이터의 주제 설정<br>
 수집 기간이 끝나면 **나의 데이터 수집**을 통해 데이터 수집 결과를 확인 가능
 
 https://github.com/pnucse-capstone-2024/Capstone-2024-team-22
