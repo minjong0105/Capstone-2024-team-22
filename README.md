@@ -70,8 +70,13 @@ npm install
 ../bin/configtxgen -profile Channel -outputAnchorPeersUpdate ./channel-artifacts/Org2MSPanchors.tx -channelID mychannel -asOrg Org2MSP
 ../bin/configtxgen -profile Channel -outputAnchorPeersUpdate ./channel-artifacts/Org3MSPanchors.tx -channelID mychannel -asOrg Org3MSP
 
+도커 컨테이너 생성
+docker-compose -f docker-compose.yaml up -d
+
 채널 생성
 docker exec -it cli peer channel create -o orderer.data-collector.com:7050 -c mychannel -f ./channel-artifacts/channel.tx --outputBlock ./channel-artifacts/channel.block --tls --cafile /etc/hyperledger/orderer/tls/ca.crt
+
+
 
 피어 조인
 docker exec -it cli.peer0.org1.data-collector.com peer channel join -b ./channel-artifacts/channel.block
