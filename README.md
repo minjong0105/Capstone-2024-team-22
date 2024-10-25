@@ -62,7 +62,7 @@ n. 시스템 시작
 cd /
 npm start
 ```
-
+이후 localhost:3000으로 접속
 
 
 
