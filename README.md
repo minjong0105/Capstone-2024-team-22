@@ -76,7 +76,8 @@ docker-compose -f docker-compose.yaml up -d
 채널 생성
 docker exec -it cli peer channel create -o orderer.data-collector.com:7050 -c mychannel -f ./channel-artifacts/channel.tx --outputBlock ./channel-artifacts/channel.block --tls --cafile /etc/hyperledger/orderer/tls/ca.crt
 
-
+하이퍼레저 패브릭 네트워크 자동화 스크립트 실행
+sh ./start_network.sh
 
 피어 조인
 docker exec -it cli.peer0.org1.data-collector.com peer channel join -b ./channel-artifacts/channel.block
