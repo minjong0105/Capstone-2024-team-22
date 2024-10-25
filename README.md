@@ -124,4 +124,12 @@ npm start
 수집 기간이 끝나면 **나의 데이터 수집**을 통해 데이터 수집 결과를 확인 가능  
 피드백 기능을 통해 수집 및 결과 확인 과정에서 발생한 불편함 및 개선 방안을 제공 가능
 
+8. 참여자의
+
+![스크린샷 2024-10-25 221353](https://github.com/user-attachments/assets/a5adf65c-7562-4ebe-a096-4c60f1a11b45)
+
+
+
+9. 
+
 https://github.com/pnucse-capstone-2024/Capstone-2024-team-22
