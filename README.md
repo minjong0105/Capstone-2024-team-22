@@ -39,12 +39,12 @@
 [![부산대학교 정보컴퓨터공학부 소개](http://img.youtube.com/vi/zh_gQ_lmLqE/0.jpg)](https://youtu.be/zh_gQ_lmLqE)
 
 ## 설치 및 사용법
-1. 소스코드 복제
+### 1. 소스코드 복제
 ```bash
 git clone https://github.com/spotydol7/hyperledger-fabric-data-collector/tree/main
 cd your-repository
 ```
-2. 필수 패키지 설치
+### 2. 필수 패키지 설치
 ```bash
 cd data-collection-system
 npm install
