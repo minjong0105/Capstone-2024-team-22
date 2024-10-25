@@ -111,9 +111,8 @@ npm start
 이후 localhost:3000으로 접속
 
 6. 회원가입
-<div align="center">
-	<img width="541" alt="KakaoTalk_20241013_223555677" src="https://github.com/user-attachments/assets/4b2078d0-a7a3-411f-86e1-9f644c046caa">
-</div>
+<img width="541" alt="KakaoTalk_20241013_223555677" src="https://github.com/user-attachments/assets/4b2078d0-a7a3-411f-86e1-9f644c046caa">
+
 
 데이터를 제공하고자 하는 참여자는 Org1을 선택, 데이터를 수집하고자 하는 수집자는 Org2를 선택
 
