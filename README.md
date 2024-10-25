@@ -45,7 +45,16 @@
 git clone https://github.com/spotydol7/hyperledger-fabric-data-collector/tree/main
 cd your-repository
 ```
-
+2. 필수 패키지 설치
+```bash
+cd data-collection-system
+npm install
+```
+3. ELK Stack 설치
+```bash
+cd ../docker-elk
+docker-compose up -d
+```
 
 
 
