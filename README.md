@@ -49,7 +49,7 @@ cd your-repository
 cd data-collection-system
 npm install
 ```
-3. 하이퍼레저 패브릭 네트워크 구성
+### 3. 하이퍼레저 패브릭 네트워크 구성
 ```bash
 infra 폴더로 이동
 cd ../infra
@@ -95,27 +95,27 @@ docker exec -it cli.peer0.org2.data-collector.com peer channel update -o orderer
 docker exec -it cli.peer0.org3.data-collector.com peer channel update -o orderer.data-collector.com:7050 -c mychannel -f ./channel-artifacts/Org3MSPanchors.tx --tls --cafile /etc/hyperledger/orderer/tls/ca.crt
 ```
 
-4. ELK Stack 설치
+### 4. ELK Stack 설치
 ```bash
 cd ../docker-elk
 docker-compose up -d
 ```
 만약 Elasticsearch Security 설정이 활성화되어 있어 대시보드  출력이 안되는 경우에는 localhost:9200 접속 후 id: elasticsearch, pw: changeme 입력 후 로그인하면 정상 실행 가능
 
-5. 시스템 시작
+### 5. 시스템 시작
 ```bash
 cd ../data-collection-system
 npm start
 ```
 이후 localhost:3000으로 접속
 
-6. 회원가입
+### 6. 회원가입
 <img width="541" alt="KakaoTalk_20241013_223555677" src="https://github.com/user-attachments/assets/4b2078d0-a7a3-411f-86e1-9f644c046caa">
 
 
 데이터를 제공하고자 하는 참여자는 Org1을 선택, 데이터를 수집하고자 하는 수집자는 Org2를 선택
 
-7. 수집자로 로그인 시
+### 7. 수집자로 로그인 시
 
 ![스크린샷 2024-10-25 220630](https://github.com/user-attachments/assets/f5b9c802-8f0f-48fe-b786-d2942d8b753e)
 
@@ -123,7 +123,7 @@ npm start
 수집 기간이 끝나면 **나의 데이터 수집** 기능을 통해 데이터 수집 결과를 확인 가능  
 **피드백** 기능을 통해 수집 및 결과 확인 과정에서 발생한 불편함 및 개선 방안을 제공 가능
 
-8. 참여자로 로그인 시
+### 8. 참여자로 로그인 시
 
 ![스크린샷 2024-10-25 221353](https://github.com/user-attachments/assets/a5adf65c-7562-4ebe-a096-4c60f1a11b45)
 
